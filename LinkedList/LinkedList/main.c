@@ -69,7 +69,7 @@ LinkList initList() {
     LinkList head = (LinkList)malloc(sizeof(Node));
     if (!head) {
         printf("分配失败！");
-        exit(0);
+        exit(1);
     }
     
     LinkList pNode = head;
